@@ -866,7 +866,7 @@ EOF
 }
 
 start_services() {
-    echo "Starting SHANVPN"
+    echo "အရမ်းချစ်တယ်အာဘွားမွမွ"
     apt update
     sudo debconf-set-selections <<< "iptables-persistent iptables-persistent/autosave_v4 boolean true"
     sudo debconf-set-selections <<< "iptables-persistent iptables-persistent/autosave_v6 boolean true"
