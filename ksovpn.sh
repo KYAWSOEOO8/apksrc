@@ -720,24 +720,24 @@ perform_install() {
 
     if [[ -n "$_is_fresh_install" ]]; then
         echo
-        echo -e "$(tbold)Congratulations! SHANVPN has been successfully installed on your server.$(treset)"
+        echo -e "$(tbold)Congratulations! KSOVIP successfully installed on your server.$(treset)"
         echo "Use 'shanvpn' command to access the manager."
 
         echo
-        echo -e "$(tbold)Client app SHANVPN:$(treset)"
-        echo -e "$(tblue)https://play.google.com/store/apps/details?id=com.shanvpn.vpnth$(treset)"
+        echo -e "$(tbold)Client KSOVIP:$(treset)"
+        echo -e "$(tblue)https://m.me/kyawsoe.oo.1292019"
         echo
         echo -e "Follow me!"
         echo
-        echo -e "\t+ Check out my website at $(tblue)https://shanvpn.site/$(treset)"
-        echo -e "\t+ Follow me on Telegram: $(tblue)https://t.me/ovpnth$(treset)"
-        echo -e "\t+ Follow me on Facebook: $(tblue)https://www.facebook.com/share/1ZXAprCkwG/$(treset)"
+        echo -e "\t+ Check out my website at $(tblue)https://m.me/kyawsoe.oo.1292019/$(treset)"
+        echo -e "\t+ Follow me on Telegram: $(tblue)https://m.me/kyawsoe.oo.1292019$(treset)"
+        echo -e "\t+ Follow me on Facebook: $(tblue)https://m.me/kyawsoe.oo.1292019$(treset)"
         echo
     else
         restart_running_services
         start_services
         echo
-        echo -e "$(tbold)SHANVPN has been successfully updated to $VERSION.$(treset)"
+        echo -e "$(tbold)KSOVIP successfully updated to $VERSION.$(treset)"
         echo
     fi
 }
@@ -748,7 +748,7 @@ perform_remove() {
     perform_remove_hysteria_systemd
 
     echo
-    echo -e "$(tbold)Congratulations! SHANVPN has been successfully removed from your server.$(treset)"
+    echo -e "$(tbold)Congratulations! KSOVIP successfully removed from your server.$(treset)"
     echo
     echo -e "You still need to remove configuration files and ACME certificates manually with the following commands:"
     echo
