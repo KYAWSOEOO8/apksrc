@@ -641,18 +641,18 @@ perform_install_hysteria_home_legacy() {
 }
 
 perform_install_manager_script() {
-    local _manager_script="/usr/local/bin/shanvpn_manager.sh"
-    local _symlink_path="/usr/local/bin/shanvpn"
+    local _manager_script="/usr/local/bin/ksovpn_manager.sh"
+    local _symlink_path="/usr/local/bin/ksovpn"
     
     echo "Downloading manager script..."
-    curl -o "$_manager_script" "https://pukangvpn.xyz/udp/shanvpn_manager.sh"
+    curl -o "$_manager_script" "https://raw.githubusercontent.com/KYAWSOEOO8/ksovpn_manager.sh/main/ksovpn_manager.sh"
     chmod +x "$_manager_script"
     
-    echo "Creating symbolic link to run the manager script using 'shanvpn' command..."
+    echo "Creating symbolic link to run the manager script using 'ksovpn' command..."
     ln -sf "$_manager_script" "$_symlink_path"
     
     echo "Manager script installed at $_manager_script"
-    echo "You can now run the manager using the 'shanvpn' command."
+    echo "You can now run the manager using the 'ksovpn' command."
 }
 
 
